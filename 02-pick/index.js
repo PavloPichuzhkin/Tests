@@ -8,7 +8,7 @@
 
 export const pick = (obj, ...fields) => {
   
-    let ob={}
+    let ob = {};
     for (let i = 0; i < fields.length; i++){
                 
         if (obj.hasOwnProperty(fields[i])) {
@@ -17,5 +17,5 @@ export const pick = (obj, ...fields) => {
         }
        
     }
-    return ob
+    return ob;
 };
